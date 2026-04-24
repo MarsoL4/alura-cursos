@@ -1,0 +1,19 @@
+{
+  "name": "code-connect",
+  "private": true,
+  "scripts": {
+    "web:dev": "pnpm --filter web dev",
+    "web:build": "pnpm --filter web build",
+    "web:preview": "pnpm --filter web preview",
+    "web:lint": "pnpm --filter web lint",
+    "web:test": "pnpm --filter web test",
+    "api:start": "pnpm --filter api start",
+    "api:dev": "pnpm --filter api start:dev",
+    "api:build": "pnpm --filter api build",
+    "api:test": "pnpm --filter api test",
+    "api:lint": "pnpm --filter api lint",
+    "dev": "pnpm --parallel --filter '*' run dev",
+    "db:up": "docker compose up -d",
+    "db:down": "docker compose down"
+  }
+}

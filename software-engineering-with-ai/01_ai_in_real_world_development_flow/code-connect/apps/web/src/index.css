@@ -1,0 +1,16 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-grafite: #00090E;
+  --color-cinza-escuro: #171D1F;
+  --color-cinza-medio: #888888;
+  --color-cinza-claro: #BCBCBC;
+  --color-offwhite: #E1E1E1;
+  --color-verde-destaque: #81FE88;
+  --color-verde-petroleo: #132E35;
+  --font-family-sans: 'Prompt', sans-serif;
+}
+
+body {
+  font-family: 'Prompt', sans-serif;
+}
