@@ -1,0 +1,29 @@
+{
+  "properties": [
+    {
+      "name": "veiculo.manutencao.limite-quilometragem",
+      "type": "java.lang.Long",
+      "description": "Quilometragem máxima antes de exigir manutenção preventiva."
+    },
+    {
+      "name": "veiculo.manutencao.custo-por-km",
+      "type": "java.lang.Double",
+      "description": "Custo estimado por km rodado para cálculo de manutenção."
+    },
+    {
+      "name": "veiculo.manutencao.custo-base",
+      "type": "java.lang.Double",
+      "description": "Custo base fixo para cálculo de manutenção."
+    },
+    {
+      "name": "veiculo.manutencao.limite-meses",
+      "type": "java.lang.Integer",
+      "description": "Número de meses sem manutenção antes de gerar alerta preventivo."
+    },
+    {
+      "name": "veiculo.manutencao.alerta.cron",
+      "type": "java.lang.String",
+      "description": "Expressão cron para agendamento da verificação diária de alertas de manutenção."
+    }
+  ]
+}
