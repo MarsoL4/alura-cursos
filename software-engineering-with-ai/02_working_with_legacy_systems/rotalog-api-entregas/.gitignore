@@ -41,8 +41,8 @@ coverage/
 Thumbs.db
 
 # Environment
-# FIXME: .env deveria estar aqui mas foi commitado intencionalmente
 .env
+software-engineering-with-ai/02_working_with_legacy_systems/rotalog-api-entregas/.env
 .env.local
 .env.*.local
 
